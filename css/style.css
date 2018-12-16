@@ -1,0 +1,63 @@
+/*===================================
+  Default Theme
+  -----------------------------------
+  Fonts: Raleway & Open Sans
+  -----------------------------------
+  Colors:
+      Moon Yellow:        #f4c613
+      Gray:               #212226
+      white Smoke:        #f4f4f4
+      white:              #fff
+      Black:              #000
+===================================*/
+/*===================================
+              preloader
+===================================*/
+#preloader {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+#status {
+  background-image: url("../img/preloader/preloader2.gif");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+===================================*/
+/*===================================
+              HOME
+===================================*/
+#home-bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background: url("../video/ocean.jpg") no-repeat;
+  background-size: cover;
+}
+#home-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 0;
+}
