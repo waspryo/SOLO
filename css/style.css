@@ -10,6 +10,35 @@
       white:              #fff
       Black:              #000
 ===================================*/
+
+/*===================================
+              Html, body
+===================================*/
+html, body {
+  height: 100%;
+}
+body {
+  color: #212226;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+section{
+  background: #fff;
+  overflow: hidden;
+}
+
 /*===================================
               preloader
 ===================================*/
@@ -35,10 +64,14 @@
   margin-left: -50px;
 }
 
-===================================*/
+
 /*===================================
               HOME
 ===================================*/
+#home {
+  background: none;
+  height: 100%;
+}
 #home-bg-video {
   position: fixed;
   top: 50%;
@@ -59,5 +92,27 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: -1;
+}
+
+#home-content {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+#home-content-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+#home-heading h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  display: inline-block;
+}
+#home-heading h1 span {
+  color: #f4c613;
+  font-weight: 500;
 }
