@@ -10,31 +10,35 @@
       white:              #fff
       Black:              #000
 ===================================*/
-
 /*===================================
               Html, body
 ===================================*/
 html, body {
   height: 100%;
 }
+
 body {
   color: #212226;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
+
 p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
 }
-section{
+
+
+section {
   background: #fff;
   overflow: hidden;
 }
@@ -64,7 +68,6 @@ section{
   margin-left: -50px;
 }
 
-
 /*===================================
               HOME
 ===================================*/
@@ -72,11 +75,13 @@ section{
   background: none;
   height: 100%;
 }
+
 #home-bg-video {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -85,6 +90,7 @@ section{
   background: url("../video/ocean.jpg") no-repeat;
   background-size: cover;
 }
+
 #home-overlay {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
@@ -100,10 +106,12 @@ section{
   height: 100%;
   display: table;
 }
+
 #home-content-inner {
   display: table-cell;
   vertical-align: middle;
 }
+
 #home-heading h1 {
   color: #fff;
   font-size: 65px;
@@ -112,7 +120,105 @@ section{
   margin: 0;
   display: inline-block;
 }
+
 #home-heading h1 span {
+    color: #f4c613;
+    font-weight: 500;
+}
+#home-text p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    margin: 8px 0 30px 0;
+}
+
+/*===================================
+              Buttons
+===================================*/
+.btn-general {
+  font-family: 'Raleway', sans-serif;
+  border-radius: 28px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 0 6px;
+  padding: 12px 46px 12px 46px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.btn-home {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+  color: #fff;
+  background-color: #f4c613;
+  border: 1px solid #f4c613;
+}
+
+/*===================================
+              Arrow Down
+===================================*/
+#arrow-down {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  color: #fff;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  margin-left: -16px;
+  z-index: 1;
+}
+
+#arrow-down:hover,
+#arrow-down:focus {
   color: #f4c613;
+}
+
+/*===================================
+              Content Boxes
+===================================*/
+.content-box-lg {
+  padding: 120px 0;
+}
+
+/*===================================
+              Vertical Headings
+===================================*/
+.vertical-heading h5 {
+  color: #f4c613;
+  font-size: 14px;
   font-weight: 500;
+  text-transform: uppercase;
+  word-spacing: 9px;
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);transform: rotate(-90deg);
+  position: relative;
+  top: 60px;
+  left: -63px;
+}
+
+.vertical-heading h2 {
+  margin: 0 0 0 35px;
+  font-size: 42px;
+  font-weight: 100;
+  line-height: 45px;
+}
+
+/*===================================
+              About 01
+===================================*/
+
+#about-right p:first-child{
+  margin-bottom: 39px;
+}
+#about-bottom {
+  margin-top: 60px;
+}
+#about-bottom img {
+  margin: 0 auto;
 }
