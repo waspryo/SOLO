@@ -27,16 +27,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
 }
-
 
 section {
   background: #fff;
@@ -81,7 +80,7 @@ section {
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -122,14 +121,15 @@ section {
 }
 
 #home-heading h1 span {
-    color: #f4c613;
-    font-weight: 500;
+  color: #f4c613;
+  font-weight: 500;
 }
+
 #home-text p {
-    color: #fff;
-    font-size: 17px;
-    font-weight: 100;
-    margin: 8px 0 30px 0;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 100;
+  margin: 8px 0 30px 0;
 }
 
 /*===================================
@@ -185,7 +185,8 @@ section {
 .content-box-lg {
   padding: 120px 0;
 }
-.content-box-md{
+
+.content-box-md {
   padding: 100px 0;
 }
 
@@ -199,7 +200,8 @@ section {
   text-transform: uppercase;
   word-spacing: 9px;
   display: inline-block;
-  -webkit-transform: rotate(-90deg);transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
   position: relative;
   top: 60px;
   left: -63px;
@@ -215,13 +217,14 @@ section {
 /*===================================
               About 01
 ===================================*/
-
-#about-right p:first-child{
+#about-right p:first-child {
   margin-bottom: 39px;
 }
+
 #about-bottom {
   margin-top: 60px;
 }
+
 #about-bottom img {
   margin: 0 auto;
 }
@@ -232,20 +235,24 @@ section {
 #about-02 {
   background-color: #f4f4f4;
 }
+
 .about-item {
   background-color: #fff;
   padding: 80px 30px;
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0, .1);box-shadow: 0 0 10px rgba(0,0,0, .1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
 .about-item i {
   font-size: 42px;
   margin: 0;
 }
+
 .about-item h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
+
 .about-item hr {
   width: 45px;
   height: 3px;
@@ -253,6 +260,34 @@ section {
   margin: 0 auto;
   border: none;
 }
+
 .about-item p {
   margin-top: 20px;
+}
+
+/* Hover state */
+.about-item:hover {
+  background-color: #f4c613;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  color: #fff;
+}
+
+.about-item:hover hr {
+  background-color: #fff;
+}
+
+.about-item:hover i {
+  transform: translateY(-20px);
+}
+
+/* Smooth transition */
+.about-item,
+.about-item i,
+.about-hr {
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
