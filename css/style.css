@@ -408,27 +408,32 @@ input:focus,
 textarea:focus {
   outline: none;
 }
+
 /*===================================
               Skills
 ===================================*/
 .skill {
   margin-bottom: 20px;
 }
+
 .skill h4 {
   line-height: 62px;
   margin: 0;
   font-weight: normal;
 }
+
 .progress {
   height: 25px;
   border-radius: 0;
   background: #efefef;
   overflow: visible;
 }
+
 .progress-bar {
   background-color: #f4c613;
   position: relative;
 }
+
 .progress-bar span {
   font-size: 11px;
   font-weight: 100;
@@ -439,6 +444,7 @@ textarea:focus {
   left: 97%;
   top: -47px;
 }
+
 .progress-bar span:before {
   content: "";
   border-top: 8px solid #212226;
@@ -447,4 +453,32 @@ textarea:focus {
   position: absolute;
   bottom: -8px;
   left: 23%;
+}
+
+/*===================================
+              Statement
+===================================*/
+#statement {
+  background: url("../img/tech/tech-quote.jpg") no-repeat fixed center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: center;
+  background-attachment: fixed; */
+}
+
+#statement .content-box-lg {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#tech-statement h3 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 45px;
+}
+
+#tech-statement p {
+  font-size: 14px;
+  color: #f4c613;
+  font-family: "Raleway", sans-serif;
+  margin-top: 8px;
 }
