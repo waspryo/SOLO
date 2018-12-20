@@ -158,6 +158,19 @@ section {
   border: 1px solid #f4c613;
 }
 
+.btn-yellow {
+  color: #fff;
+  border: 1px solid #f4c613;
+  background-color: #f4c613;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+  color: #fff;
+  background-color: #212226;
+  border: 1px solid #212226;
+}
+
 /*===================================
               Arrow Down
 ===================================*/
@@ -191,7 +204,7 @@ section {
 }
 
 /*===================================
-              Vertical Headings
+              Vertical/horizontal Headings
 ===================================*/
 .vertical-heading h5 {
   color: #f4c613;
@@ -209,9 +222,29 @@ section {
 
 .vertical-heading h2 {
   margin: 0 0 0 35px;
+}
+
+.horizontal-heading h2,
+.vertical-heading h2 {
   font-size: 42px;
   font-weight: 100;
   line-height: 45px;
+}
+
+.horizontal-heading {
+  margin-bottom: 80px;
+}
+
+.horizontal-heading h5 {
+  font-size: 16px;
+  color: #f4c613;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.horizontal-heading h2 {
+  margin: 0;
 }
 
 /*===================================
@@ -481,4 +514,113 @@ textarea:focus {
   color: #f4c613;
   font-family: "Raleway", sans-serif;
   margin-top: 8px;
+}
+
+/*===================================
+              service 01
+===================================*/
+#services-01 img {
+  margin: 60px 0;
+}
+
+.service {
+  margin: 35px 0;
+}
+
+.service .icon {
+  font-size: 42px;
+  margin: 0;
+  transition: all 400ms linear;
+}
+
+.service:hover .icon {
+  color: #f4c613;
+  transform: translateX(-20px);
+}
+
+.service h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #f4c613;
+  margin: 0 0 6px 0;
+}
+
+.service:hover h5 {
+  color: #212226;
+}
+
+.service h4 {
+  font-size: 24px;
+  margin: 0 0 8px 0;
+}
+
+.service p {
+  line-height: normal;
+}
+
+/*===================================
+    Services 02  (Responsive Tabs)
+===================================*/
+#services-02 {
+  background: #f4f4f4;
+}
+
+#services-tabs ul {
+  margin-bottom: 40px;
+}
+
+#services-tabs ul li {
+  padding: 5px 30px;
+}
+
+#services-tabs ul li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #212226;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Tab active state */
+#services-tabs ul li.r-tabs-state-active a {
+  color: #f4c613;
+  font-weight: 700;
+  border-bottom: 3px solid #f4c613;
+  padding-bottom: 5px;
+  -webkit-transition: border-color 300ms linear;
+  transition: border-color 300ms linear;
+}
+
+.service-tab .col-md-6 {
+  padding: 0;
+}
+
+.service-tab img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.service-tab .tab-bg {
+  background: #fff;
+  padding: 59px 30px;
+  min-height: 481px;
+}
+
+.service-tab h2 {
+  font-size: 48px;
+  color: #bbb;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.service-bottom h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.service-tab p {
+  line-height: 24px;
+  margin-bottom: 30px;
 }
