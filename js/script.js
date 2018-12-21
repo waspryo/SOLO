@@ -99,3 +99,12 @@ $(function() {
     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
   });
 });
+/*===================================
+              Stats
+===================================*/
+$(function() {
+  $(".counter").counterUp({
+                delay: 10,
+                time: 3000
+  });
+});
