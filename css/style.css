@@ -1036,3 +1036,22 @@ textarea:focus {
 .client img {
   display: inline-block !important;
 }
+/*===================================
+              Blog
+===================================*/
+#blog {
+  background: #f4f4f4;
+}
+#blog-left p {
+  margin: 25px 0;
+}
+#blog-btn a {
+  margin: 0;
+}
+.blog-post {
+  background: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
