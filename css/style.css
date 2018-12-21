@@ -216,6 +216,10 @@ section {
   padding: 100px 0;
 }
 
+.content-box-sm {
+  padding: 90px 0;
+}
+
 /*===================================
               Vertical/horizontal Headings
 ===================================*/
@@ -948,6 +952,7 @@ textarea:focus {
 .pricing-table.black:hover {
   background: #f4c613;
 }
+
 /*===================================
               Stats
 ===================================*/
@@ -962,20 +967,24 @@ textarea:focus {
 #stats .content-box-md {
   background: rgba(0, 0, 0, 0.8);
 }
+
 #stats .vertical-heading {
   margin-bottom: 50px;
 }
+
 #stats .vertical-heading h2 {
   color: #fff;
 }
+
 .stats-item {
   background: rgba(61, 68, 68, 0.6);
   border-radius: 4px;
-  min-height:  170px;
+  min-height: 170px;
   padding: 25px 50px;
   -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
 }
+
 .stats-item i {
   font-size: 42px;
   color: #f4c613;
@@ -983,21 +992,47 @@ textarea:focus {
   -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
 }
+
 .stats-item h3 {
   font-size: 32px;
   color: #fff;
   margin: 5 0 5px 0;
   font-family: "Open Sans", sans-serif;
 }
+
 .stats-item p {
   color: #fff;
   margin: 0;
 }
+
 .stats-item:hover {
   background: #f4c613;
 }
+
 .stats-item:hover i {
   color: #212226;
-  -webkit-transform: translateY(-20px);transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
 
+/*===================================
+              Clients
+===================================*/
+#clients .horizontal-heading {
+  margin: 30px;
+}
+
+#clients-list {
+  padding: 45px 0 0 0;
+}
+
+.client {
+  padding: 0 10px;
+  max-width: 150px;
+  margin: 0 auto;
+  line-height: 100px;
+}
+
+.client img {
+  display: inline-block !important;
 }
