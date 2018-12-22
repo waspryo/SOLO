@@ -1036,22 +1036,132 @@ textarea:focus {
 .client img {
   display: inline-block !important;
 }
+
 /*===================================
               Blog
 ===================================*/
 #blog {
   background: #f4f4f4;
 }
+
 #blog-left p {
   margin: 25px 0;
 }
+
 #blog-btn a {
   margin: 0;
 }
+
 .blog-post {
   background: #fff;
   padding: 20px;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 6px;
+}
+
+.blog-post h4 {
+  line-height: 40px;
+  margin: 0;
+}
+
+.blog-post>p {
+  line-height: 24px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.blog-post a {
+  display: inline-block;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: #f4c613;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+
+.blog-post a:hover {
+  color: #212226;
+}
+
+.blog-post .post-meta {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.blog-post .post-meta p {
+  font-size: 11px;
+  font-family: "Raleway", sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/*===================================
+              Contact
+===================================*/
+/* Contact Left */
+#contact-left p {
+  margin: 25px 0 20px 0;
+}
+
+ul.office-details {
+  list-style: none;
+  padding: 0;
+}
+
+ul.office-details li {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul.office-details li i {
+  font-size: 20px;
+  width: 45px;
+}
+
+#contact-left ul.social-list li a {
+  color: #212226;
+  border: 1px solid #212226;
+  text-align: center;
+}
+
+#contact-left ul.social-list li a:hover {
+  color: #fff;
+  border-color: transparent
+}
+
+/* Contact Right */
+#contact-right {
+  padding: 20px 30px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+#contact-right h4 {
+  font-size: 24px;
+}
+
+#contact-right p {
+  margin-bottom: 25px;
+}
+
+#contact-right form .form-control {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 15px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#contact-right form textarea.form-control {
+  min-height: 164px;
 }
