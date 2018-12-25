@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
+
   <!-- Fontawesome -->
   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
@@ -34,15 +35,48 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="65">
 
   <!-- Preloader -->
   <div id="preloader">
     <div id="status">&nbsp;</div>
   </div>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="site-nav-wrapper">
+          <div class="navbar-header">
+            <!-- Logo -->
+            <a href="#home" class="navbar-brand smooth-scroll">
+              <img src="./img/logo/logo.png" alt="logo">
+            </a>
+          </div>
+          <!-- Main Menu -->
+          <div class="container">
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                <li><a class="smooth-scroll" href="#about">About</a></li>
+                <li><a class="smooth-scroll" href="#team">Team</a></li>
+                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                <li><a class="smooth-scroll" href="#portfolio">Work</a></li>
+                <li><a class="smooth-scroll" href="#blog">Blog</a></li>
+                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header Ends -->
 
   <!-- Home -->
   <section id="home">
@@ -73,7 +107,7 @@
         </div>
 
         <div id="home-btn">
-          <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button">Start Now</a>
+          <a class="btn btn-general btn-home smooth-scroll" href="#about" title="Start Now" role="button">Start Now</a>
         </div>
 
       </div>
@@ -81,7 +115,7 @@
     </div>
 
     <!-- Arrow Down -->
-    <a href="#about" id="arrow-down">
+    <a href="#about" id="arrow-down" class="smooth-scroll">
       <i class="fa fa-angle-down"></i>
     </a>
   </section>
@@ -97,7 +131,7 @@
         <div class="container">
           <div class="row">
             <!-- About left side -->
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
               <div id="about-left">
                 <div class="vertical-heading">
                   <h5>Who We Are</h5>
@@ -106,7 +140,7 @@
               </div>
             </div>
             <!-- About right side -->
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
               <div id="about-right">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -142,7 +176,7 @@
       <div class="content-box-md">
         <div class="container">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <div class="about-item text-center">
                 <i class="fa fa-globe"></i>
                 <h3>Misson</h3>
@@ -151,7 +185,7 @@
                   consequat.</p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <div class="about-item text-center">
                 <i class="fa fa-eye"></i>
                 <h3>Vison</h3>
@@ -160,7 +194,7 @@
                   consequat.</p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <div class="about-item text-center">
                 <i class="fa fa-pencil"></i>
                 <h3>Passion</h3>
@@ -186,7 +220,7 @@
         <!-- Team Members -->
         <div class="row">
           <!-- Team Left Side -->
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6">
             <div id="team-left">
               <div class="vertical-heading">
                 <h5>Who We Are</h5>
@@ -195,8 +229,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
-          <!-- Team right Side -->
-          <div class="col-md-6">
+          <!-- Team Right Side -->
+          <div class="col-md-6 col-sm-6">
             <div id="team-members" class="owl-carousel owl-theme">
               <!-- Members 01 -->
               <div class="team-member">
@@ -296,7 +330,7 @@
 
           <!-- progress Bars -->
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
               <!-- Skill 01 -->
               <div class="skill">
                 <h4>Web Design</h4>
@@ -305,7 +339,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
               <!-- Skill 02 -->
               <div class="skill">
                 <h4>Photoshop/Illustration</h4>
@@ -314,7 +348,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
               <!-- Skill 03 -->
               <div class="skill">
                 <h4>Web Development</h4>
@@ -323,7 +357,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
               <!-- Skill 04 -->
               <div class="skill">
                 <h4>Digital Marketing</h4>
@@ -374,19 +408,19 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7 col-sm-7">
               <img src="./img/services/laptop-lamp.png" alt="laptop" class="img-responsive">
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 col-sm-5">
               <!-- Services 01 -->
               <div class="service">
                 <div class="row">
-                  <div class="col-md-2">
+                  <div class="col-md-2 col-sm-2">
                     <div class="icon text-right">
                       <i class="fa fa-paint-brush"></i>
                     </div>
                   </div>
-                  <div class="col-md-10">
+                  <div class="col-md-10 col-sm-10">
                     <h5>Service 01</h5>
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -396,12 +430,12 @@
               <!-- Services 02 -->
               <div class="service">
                 <div class="row">
-                  <div class="col-md-2">
+                  <div class="col-md-2 col-sm-2">
                     <div class="icon text-right">
                       <i class="fa fa-laptop"></i>
                     </div>
                   </div>
-                  <div class="col-md-10">
+                  <div class="col-md-10 col-sm-10">
                     <h5>Service 02</h5>
                     <h4>Web Development</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -411,12 +445,12 @@
               <!-- Services 03 -->
               <div class="service">
                 <div class="row">
-                  <div class="col-md-2">
+                  <div class="col-md-2 col-sm-2">
                     <div class="icon text-right">
                       <i class="fa fa-paper-plane-o"></i>
                     </div>
                   </div>
-                  <div class="col-md-10">
+                  <div class="col-md-10 col-sm-10">
                     <h5>Service 03</h5>
                     <h4>Digital Marketing</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -566,7 +600,7 @@
             <div id="isotope-container">
 
 
-              <div class="col-md-3 desktop">
+              <div class="col-md-3 col-sm-6 col-xs-12 desktop">
                 <!-- Portfolio Item 01 -->
                 <div class="portfolio-item">
                   <a href="./img/portfolio/001.jpg" title="Add Description">
@@ -586,7 +620,7 @@
                 </div>
               </div>
               <!-- Portfolio Item 02 -->
-              <div class="col-md-3 web">
+              <div class="col-md-3 col-sm-6 col-xs-12 web">
 
                 <div class="portfolio-item">
                   <a href="./img/portfolio/002.jpg" title="Add Description">
@@ -607,7 +641,7 @@
 
               </div>
               <!-- Portfolio Item 03 -->
-              <div class="col-md-3 web logo mobile">
+              <div class="col-md-3 col-sm-6 col-xs-12  web logo mobile">
 
                 <div class="portfolio-item">
                   <a href="./img/portfolio/003.jpg" title="Add Description">
@@ -628,7 +662,7 @@
               </div>
 
               <!-- Portfolio Item 04 -->
-              <div class="col-md-3 logo web">
+              <div class="col-md-3 col-sm-6 col-xs-12 logo web">
 
                 <div class="portfolio-item">
                   <a href="./img/portfolio/004.jpg" title="Add Description">
@@ -649,7 +683,7 @@
               </div>
 
               <!-- Portfolio Item 05 -->
-              <div class="col-md-3 web">
+              <div class="col-md-3 col-sm-6 col-xs-12 web">
 
                 <div class="portfolio-item">
                   <a href="./img/portfolio/005.jpg" title="Add Description">
@@ -670,7 +704,7 @@
               </div>
 
               <!-- Portfolio Item 06 -->
-              <div class="col-md-3 logo desktop">
+              <div class="col-md-3 col-sm-6 col-xs-12 logo desktop">
 
                 <div class="portfolio-item">
                   <a href="./img/portfolio/006.jpg" title="Add Description">
@@ -691,7 +725,7 @@
               </div>
 
               <!-- Portfolio Item 07 -->
-              <div class="col-md-3 web mobile">
+              <div class="col-md-3 col-sm-6 col-xs-12 web mobile">
 
                 <div class="portfolio-item">
                   <a href="./img/portfolio/007.jpg" title="Add Description">
@@ -712,7 +746,7 @@
               </div>
 
               <!-- Portfolio Item 08 -->
-              <div class="col-md-3 web mobile">
+              <div class="col-md-3 col-sm-6 col-xs-12 web mobile">
 
                 <div class="portfolio-item">
                   <a href="./img/portfolio/008.jpg" title="Add Description">
@@ -743,22 +777,22 @@
   <section id="testimonials">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-4">
           <div class="vertical-heading">
             <h5>Who We Are</h5>
             <h2>What Our <br> <strong>Customers</strong>Say</h2>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-sm-8">
           <div id="testimonial-slider" class="owl-carousel owl-theme">
             <!-- Testmonial 01 -->
             <div class="testimonial">
 
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                   <h3>Quality Support</h3>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                   <div class="stars text-right">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -774,10 +808,10 @@
               <div class="author">
 
                 <div class="row">
-                  <div class="col-md-2">
+                  <div class="col-md-2 col-sm-3 col-xs-6">
                     <img src="./img/testimonial/client-1.jpg" alt="client" class="img-responsive img-circle">
                   </div>
-                  <div class="col-md-10">
+                  <div class="col-md-10 col-sm-3 col-xs-6">
                     <div class="author-name-des">
                       <p>Joq Martin</p>
                       <p>Senior Developer</p>
@@ -791,10 +825,10 @@
             <div class="testimonial">
 
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                   <h3>Quality Support</h3>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                   <div class="stars text-right">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -810,10 +844,10 @@
               <div class="author">
 
                 <div class="row">
-                  <div class="col-md-2">
+                  <div class="col-md-2 col-sm-3 col-xs-6">
                     <img src="./img/testimonial/client-2.jpg" alt="client" class="img-responsive img-circle">
                   </div>
-                  <div class="col-md-10">
+                  <div class="col-md-10 col-sm-3 col-xs-6">
                     <div class="author-name-des">
                       <p>Joq Martin</p>
                       <p>Senior Developer</p>
@@ -827,10 +861,10 @@
             <div class="testimonial">
 
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                   <h3>Quality Support</h3>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-xs-6">
                   <div class="stars text-right">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -846,10 +880,10 @@
               <div class="author">
 
                 <div class="row">
-                  <div class="col-md-2">
+                  <div class="col-md-2 col-sm-3 col-xs-6">
                     <img src="./img/testimonial/client-3.jpg" alt="client" class="img-responsive img-circle">
                   </div>
-                  <div class="col-md-10">
+                  <div class="col-md-10 col-sm-3 col-xs-6">
                     <div class="author-name-des">
                       <p>Joq Martin</p>
                       <p>Senior Developer</p>
@@ -879,7 +913,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4">
             <!-- Pricing Table 01 -->
             <div class="pricing-table">
               <div class="type">
@@ -887,10 +921,10 @@
               </div>
               <div class="price">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4 col-xs-4">
                     <h2><span class="dollar">&#36;</span>29<br><span class="month">Month</span></h2>
                   </div>
-                  <div class="col-md-8">
+                  <div class="col-md-8 col-sm-8 col-xs-8">
                     <p>You will get all these awesome services with this great price. Get it now!</p>
                   </div>
                 </div>
@@ -907,7 +941,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4">
             <!-- Pricing Table 02 -->
             <div class="pricing-table black">
               <div class="type">
@@ -915,10 +949,10 @@
               </div>
               <div class="price">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4 col-xs-4">
                     <h2><span class="dollar">&#36;</span>57<br><span class="month">Month</span></h2>
                   </div>
-                  <div class="col-md-8">
+                  <div class="col-md-8 col-sm-8 col-xs-8">
                     <p>You will get all these awesome services with this great price. Get it now!</p>
                   </div>
                 </div>
@@ -935,7 +969,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4">
             <!-- Pricing Table 03  -->
             <div class="pricing-table">
               <div class="type">
@@ -943,10 +977,10 @@
               </div>
               <div class="price">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-4 col-xs-4">
                     <h2><span class="dollar">&#36;</span>96<br><span class="month">Month</span></h2>
                   </div>
-                  <div class="col-md-8">
+                  <div class="col-md-8 col-sm-8 col-xs-8">
                     <p>You will get all these awesome services with this great price. Get it now!</p>
                   </div>
                 </div>
@@ -982,7 +1016,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-3 col-xs-6">
             <!-- Stats Item 01 -->
             <div class="stats-item text-center">
               <i class="fa fa-bar-chart"></i>
@@ -990,7 +1024,7 @@
               <p>Years Experience</p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-3 col-xs-6">
             <!-- Stats Item 02 -->
             <div class="stats-item text-center">
               <i class="fa fa-codepen"></i>
@@ -998,7 +1032,7 @@
               <p>Projects Done</p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-3 col-xs-6">
             <!-- Stats Item 03 -->
             <div class="stats-item text-center">
               <i class="fa fa-trophy"></i>
@@ -1006,7 +1040,7 @@
               <p>Awards Receieved</p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-3 col-xs-6">
             <!-- Stats Item 04 -->
             <div class="stats-item text-center">
               <i class="fa fa-users"></i>
@@ -1073,7 +1107,7 @@
     <div class="content-box-md">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-4">
             <div id="blog-left">
               <div class="vertical-heading">
                 <h5>Latest News</h5>
@@ -1085,9 +1119,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-8">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 col-sm-6">
 
                 <!-- Blog post 01 -->
                 <div class="blog-post">
@@ -1096,10 +1130,10 @@
                   <a href="https://eatour.herokuapp.com/">Read More </a>
                   <div class="post-meta">
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-md-6 col-sm-8 col-xs-5">
                         <p><img src="./img/blog/user-1.jpg" alt="author" class="img-circle"> Daniel Watrous</p>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-6 col-sm-4 col-xs-7">
                         <p class="text-right">October 02,2019</p>
                       </div>
                     </div>
@@ -1107,7 +1141,7 @@
                 </div>
 
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 col-sm-6">
                 <!-- Blog post 02 -->
                 <div class="blog-post">
                   <h4>Your Post Title</h4>
@@ -1115,10 +1149,10 @@
                   <a href="#">Read More </a>
                   <div class="post-meta">
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-md-6 col-sm-8 col-xs-5">
                         <p><img src="./img/blog/user-2.jpg" alt="author" class="img-circle">Jhoan Petter</p>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-6 col-sm-8 col-xs-7">
                         <p class="text-right">Nov 15,2019</p>
                       </div>
                     </div>
@@ -1183,22 +1217,22 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 <div class="row">
 
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-6">
                     <div class="form-group">
                       <input type="text" class="form-control" id="name" placeholder="Your Name">
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-6">
                     <div class="form-group">
                       <input type="email" class="form-control" id="email" placeholder="Email Address">
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-6">
                     <div class="form-group">
                       <input type="text" class="form-control" id="phone" placeholder="Phone No.">
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-6">
                     <div class="form-group">
                       <input type="email" class="form-control" id="subject" placeholder="Subject">
                     </div>
@@ -1219,17 +1253,34 @@
   </section>
   <!-- Contact End-->
 
+  <!-- Google Map -->
+  <section id="google-map">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="map"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Google Map -->
 
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            Copyright &copy; 2019 All Rights Reserverd By <span>SOLO Inc.</span>
+          </p>
+        </div>
+      </div>
+    </div>
 
-
-
-
-  <!-- Temporary space -->
-  <section><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br></section>
-
+    <!-- Back to top -->
+    <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+      <i class="fa fa-angle-up"></i>
+    </a>
+  </footer>
+  <!-- Footer Ends -->
 
   <!-- JQuery -->
   <script src="js/jquery.js"></script>
@@ -1252,6 +1303,11 @@
   <script src="./js/magnific-popup/jquery.magnific-popup.min.js"></script>
   <!-- Counter -->
   <script src="./js/counter/jquery.counterup.min.js"></script>
+  <!-- Google Map JS -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqrXOuVZIb2q1OY9eD2Dmtc6g8yqxQFIw&callback=initMap"></script>
+
+  <!-- Easing -->
+  <script src="./js/easing/jquery.easing.1.3.js"></script>
   <!-- Custom JS -->
   <script src="js/script.js"></script>
 </body>
