@@ -130,7 +130,21 @@ $(function() {
     autoplayHoverPause: true,
     nav: true,
     dots: false,
-    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+    responsive: {
+      // breakpoint from 0 up
+      0: {
+        items: 2
+      },
+      // breakpoint from 480 up
+      480: {
+        items: 3
+      },
+      // breakpoint from 768 up
+      768: {
+        items: 6
+      }
+    }
   });
 });
 /*===================================
@@ -290,6 +304,14 @@ $(window).on('load', function() {
     infowindow.open(map, marker);
   });
 
+  // 4. resize Function
+  google.maps.event.addDomListener(window, 'resize', function() {
+
+    var center = map.getCenter();
+    google.maps.event.trigger(map, 'resize');
+    map.setCenter(center);
+  });
+
 });
 /*===================================
             Google Map
@@ -340,4 +362,21 @@ $(function() {
       scrollTop: $(section_id).offset().top - 64
     }, 1250, "easeInOutExpo");
   });
+});
+
+/*===================================
+            Mobile Menu
+===================================*/
+$(function() {
+
+  // Show mobile nav
+  $("#mobile-nav-open-btn").click(function() {
+    $("#mobile-nav").css("height", "100%");
+  });
+
+  // Hide mobile nav
+  $("#mobile-nav-close-btn, #mobile-nav a").click(function() {
+    $("#mobile-nav").css("height", "0%");
+  });
+
 });
