@@ -11,6 +11,10 @@
   <!-- Title -->
   <title>Solo - Creative Website</title>
 
+  <!-- Basic SEO -->
+  <meta name="description" content="Creative website development with html5, css3, jQuery & bootstrap framework">
+  <meta name="keywords" content="HTML5, CSS3, JQuery, Bootstrap, Web Design, Web Development, Responsive website, Creative website">
+
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/favicon/favicon.ico">
 
@@ -23,18 +27,19 @@
   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
   <!-- Responsive Tabs CSS -->
-  <link rel="stylesheet" href="css/responsive-tabs/responsive-tabs.css">
+  <link rel="stylesheet" href="css/responsive-tabs/responsive-tabs.min.css">
   <!-- Magnific Popup core CSS file -->
-  <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="css/magnific-popup/magnific-popup.min.css">
+  <!-- animate CSS -->
+  <link rel="stylesheet" href="css/animate/animate.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
-
   <!-- Responsive CSS -->
   <link rel="stylesheet" href="css/responsive.css">
 
@@ -146,12 +151,12 @@
   <section id="about">
 
     <!-- About 01-->
-    <div id="about -01">
+    <div id="about-01">
       <div class="content-box-lg">
         <div class="container">
           <div class="row">
             <!-- About left side -->
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="1s">
               <div id="about-left">
                 <div class="vertical-heading">
                   <h5>Who We Are</h5>
@@ -160,7 +165,7 @@
               </div>
             </div>
             <!-- About right side -->
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-6 col-sm-6 wow slideInRight" data-wow-duration="1s">
               <div id="about-right">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -178,7 +183,7 @@
           <!-- About Bottom -->
 
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 wow fadeInUp" data-wow-duration="2s">
               <div id="about-bottom">
                 <img src="img/about/about.png" alt="About Us" class="img-responsive">
               </div>
@@ -196,7 +201,8 @@
       <div class="content-box-md">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 wow fadeInLeft">
+              <!-- About item 01 -->
               <div class="about-item text-center">
                 <i class="fa fa-globe"></i>
                 <h3>Misson</h3>
@@ -205,7 +211,8 @@
                   consequat.</p>
               </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="2s">
+              <!-- About item 02 -->
               <div class="about-item text-center">
                 <i class="fa fa-eye"></i>
                 <h3>Vison</h3>
@@ -214,7 +221,8 @@
                   consequat.</p>
               </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 wow fadeInRight">
+              <!-- About item 03 -->
               <div class="about-item text-center">
                 <i class="fa fa-pencil"></i>
                 <h3>Passion</h3>
@@ -240,7 +248,7 @@
         <!-- Team Members -->
         <div class="row">
           <!-- Team Left Side -->
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="1s">
             <div id="team-left">
               <div class="vertical-heading">
                 <h5>Who We Are</h5>
@@ -250,7 +258,7 @@
             </div>
           </div>
           <!-- Team Right Side -->
-          <div class="col-md-6 col-sm-6">
+          <ddiviv class="col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="1s">
             <div id="team-members" class="owl-carousel owl-theme">
               <!-- Members 01 -->
               <div class="team-member">
@@ -349,7 +357,7 @@
         <div id="progress-elements">
 
           <!-- progress Bars -->
-          <div class="row">
+          <div class="row wow fadeInUp">
             <div class="col-md-6 col-sm-6">
               <!-- Skill 01 -->
               <div class="skill">
@@ -401,7 +409,7 @@
     <div class="content-box-lg">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 wow fadeIn">
             <div id="tech-statement" class="text-center">
               <h3><i class="fa fa-quote-left"></i> We design and develop services for customers of all sizes, <br> specializing in creating stylish, modern websites and online stores. <i class="fa fa-quote-right"></i></h3>
               <p>- Daniel Watrous -</p>
@@ -420,7 +428,7 @@
       <div class="content-box-lg">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center wow slideInDown">
               <div class="horizontal-heading">
                 <h5>What We Do</h5>
                 <h2>Our Services</h2>
@@ -428,10 +436,10 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-7 col-sm-7">
+            <div class="col-md-7 col-sm-7 wow slideInLeft">
               <img src="./img/services/laptop-lamp.png" alt="laptop" class="img-responsive">
             </div>
-            <div class="col-md-5 col-sm-5">
+            <div class="col-md-5 col-sm-5 wow slideInRight">
               <!-- Services 01 -->
               <div class="service">
                 <div class="row">
@@ -508,7 +516,7 @@
                     <h2>01</h2>
                     <h3>Get More From Life With Creativity.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div id="services-02-btn">
+                    <div id="services-02-btn-01">
                       <a class="btn btn-general btn-yellow" href="#services" title="Get In Touch" role="button">Get In Touch</a>
                     </div>
                   </div>
@@ -530,7 +538,7 @@
                     <h2>02</h2>
                     <h3>The Home Of Strategy.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div id="services-02-btn">
+                    <div id="services-02-btn-02">
                       <a class="btn btn-general btn-yellow" href="#services" title="Get In Touch" role="button">Get In Touch</a>
                     </div>
                   </div>
@@ -552,7 +560,7 @@
                     <h2>03</h2>
                     <h3>Design To Play It Safe.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div id="services-02-btn">
+                    <div id="services-02-btn-03">
                       <a class="btn btn-general btn-yellow" href="#services" title="Get In Touch" role="button">Get In Touch</a>
                     </div>
                   </div>
@@ -574,7 +582,7 @@
                     <h2>04</h2>
                     <h3>From our Development To Yours.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div id="services-02-btn">
+                    <div id="services-02-btn-04">
                       <a class="btn btn-general btn-yellow" href="#services" title="Get In Touch" role="button">Get In Touch</a>
                     </div>
                   </div>
@@ -595,7 +603,7 @@
     <div class="content-box-md">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 wow slideInLeft">
             <div class="vertical-heading">
               <h5>Find Out Work</h5>
               <h2>Our <br>Amazing <strong>Work</strong></h2>
@@ -614,7 +622,7 @@
         </div>
       </div>
       <!-- Protfolio Items Wrapper -->
-      <section id="portfolio-wrapper">
+      <section id="portfolio-wrapper" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
         <div class="container-fluid">
           <div class="row no-gutters">
             <div id="isotope-container">
@@ -797,13 +805,13 @@
   <section id="testimonials">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-4">
+        <div class="col-md-4 col-sm-4 wow slideInLeft">
           <div class="vertical-heading">
             <h5>Who We Are</h5>
             <h2>What Our <br> <strong>Customers</strong>Say</h2>
           </div>
         </div>
-        <div class="col-md-8 col-sm-8">
+        <div class="col-md-8 col-sm-8 wow fadeIn" data-wow-duration="2s">
           <div id="testimonial-slider" class="owl-carousel owl-theme">
             <!-- Testmonial 01 -->
             <div class="testimonial">
@@ -925,7 +933,7 @@
     <div class="content-box-md">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-center wow slideInDown">
             <div class="horizontal-heading">
               <h5>Lovely Customers</h5>
               <h2>Our Pricing</h2>
@@ -933,7 +941,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-4 wow fadeInLeft">
             <!-- Pricing Table 01 -->
             <div class="pricing-table">
               <div class="type">
@@ -956,12 +964,12 @@
                 <li><i class="fa fa-check"></i>Email Accounts</li>
                 <li><i class="fa fa-check"></i>10 Free Web sites</li>
               </ul>
-              <div id="pricing-btn">
+              <div id="pricing-btn-01">
                 <a class="btn btn-general btn-yellow" href="#" title="Get In Touch" role="button">Get Started</a>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="3s">
             <!-- Pricing Table 02 -->
             <div class="pricing-table black">
               <div class="type">
@@ -984,12 +992,12 @@
                 <li><i class="fa fa-check"></i>Email Accounts</li>
                 <li><i class="fa fa-check"></i>10 Free Web sites</li>
               </ul>
-              <div id="pricing-btn">
+              <div id="pricing-btn-02">
                 <a class="btn btn-general btn-white" href="#" title="Get In Touch" role="button">Get Started</a>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-4 wow fadeInRight">
             <!-- Pricing Table 03  -->
             <div class="pricing-table">
               <div class="type">
@@ -1012,7 +1020,7 @@
                 <li><i class="fa fa-check"></i>Email Accounts</li>
                 <li><i class="fa fa-check"></i>10 Free Web sites</li>
               </ul>
-              <div id="pricing-btn">
+              <div id="pricing-btn-03">
                 <a class="btn btn-general btn-yellow" href="#" title="Get In Touch" role="button">Get Started</a>
               </div>
             </div>
@@ -1028,14 +1036,14 @@
     <div class="content-box-md">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 wow slideInLeft">
             <div class="vertical-heading">
               <h5>Fun Facts</h5>
               <h2>We Deliver<br><strong>Excellent</strong> Services</h2>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row wow fadeInUp" data-wow-duration="2s">
           <div class="col-md-3 col-sm-3 col-xs-6">
             <!-- Stats Item 01 -->
             <div class="stats-item text-center">
@@ -1086,7 +1094,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row wow bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
           <div class="col-md-12">
             <div id="clients-list" class="owl-carousel owl-theme">
               <!-- Clients-->
@@ -1127,7 +1135,7 @@
     <div class="content-box-md">
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-sm-4">
+          <div class="col-md-5 col-sm-4 wow slideInLeft">
             <div id="blog-left">
               <div class="vertical-heading">
                 <h5>Latest News</h5>
@@ -1140,7 +1148,7 @@
             </div>
           </div>
           <div class="col-md-7 col-sm-8">
-            <div class="row">
+            <div class="row wow fadeInUp" data-wow-duration="3s">
               <div class="col-md-6 col-sm-6">
 
                 <!-- Blog post 01 -->
@@ -1206,8 +1214,8 @@
                     <div class="office">
                       <h4>United States</h4>
                       <ul class="office-details">
-                        <li><i class="fa fa-mobile"></i>+(55) 879 58 87 46</li>
-                        <li><i class="fa fa-envelope-o"></i>support@solo.com</li>
+                        <li><i class="fa fa-mobile"></i><span>+(55) 879 58 87 46</span></li>
+                        <li><i class="fa fa-envelope"></i><span>support@solo.com</span></li>
                         <li><i class="fa fa-map-marker"></i><span>524 Mina Street Building 05<br>Newyork, USA.</span></li>
                       </ul>
                     </div>
@@ -1215,9 +1223,9 @@
                   <div class="col-md-6">
                     <h4>Australia</h4>
                     <ul class="office-details">
-                      <li><i class="fa fa-mobile"></i>+(88) 457 87 74 87</li>
-                      <li><i class="fa fa-envelope-o"></i>support@solo.com</li>
-                      <li><i class="fa fa-map-marker"></i><span>507 Din Street Building 55 <br>Sydney, Australia</span></li>
+                      <li><i class="fa fa-mobile"></i><span>+(88) 457 87 74 87</span></li>
+                      <li><i class="fa fa-envelope"></i><span>support@solo.com</span></li>
+                      <li><i class="fa fa-map-marker"></i><span>507 Din Street Building 55 <br>Sydney, Australia.</span></li>
                     </ul>
                   </div>
                 </div>
@@ -1303,10 +1311,10 @@
   <!-- Footer Ends -->
 
   <!-- JQuery -->
-  <script src="js/jquery.js"></script>
+  <script src="./js/jquery.min.js"></script>
 
   <!-- Bootstrap JS -->
-  <script src="js/bootstrap/bootstrap.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
 
   <!-- Owl carousel JS -->
   <script src="js/owl-carousel/owl.carousel.min.js"></script>
@@ -1327,7 +1335,9 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqrXOuVZIb2q1OY9eD2Dmtc6g8yqxQFIw&callback=initMap"></script>
 
   <!-- Easing -->
-  <script src="./js/easing/jquery.easing.1.3.js"></script>
+  <script src="./js/easing/jquery.easing.1.3.min.js"></script>
+  <!-- WOW JS -->
+  <script src="./js/wow/wow.min.js"></script>
   <!-- Custom JS -->
   <script src="js/script.js"></script>
 </body>

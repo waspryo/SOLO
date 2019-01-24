@@ -254,7 +254,7 @@
     transform: rotate(0deg);
     display: block;
     position: static;
-    margin-bottom: 15;
+    margin-bottom: 15px;
   }
 
   .vertical-heading h2 {
