@@ -314,7 +314,7 @@ $(window).on('load', function() {
 
 });
 /*===================================
-            Google Map
+           Navigation Bar
 ===================================*/
 /* Show & Hide White Navigation */
 $(function() {
